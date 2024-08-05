@@ -26,12 +26,23 @@ class lojaVirtual {
     }
 
     adicionarCarrinho(produto:Produto){
-        if(this.produtos.find(produto)){
+        if(this.produtos.includes(produto)){
             return this.carrinho.push(produto)
         }else{
-            return `produto nao adicionado`
+            return `produto nao disponível`
         }
     }
 
-    
+    valorTotal(){
+
+        var valorT = 0
+        for(var i = 0; i < this.carrinho.length; i++){
+            valorT += this.carrinho[i].preco
+        }
+        return valorT
+    }
+
+    desconto(porcentagem:number){
+        return this.valorTotal() * porcentagem;
+    }
 }
