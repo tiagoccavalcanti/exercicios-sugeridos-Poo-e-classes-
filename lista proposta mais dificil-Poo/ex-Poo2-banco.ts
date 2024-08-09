@@ -11,7 +11,7 @@ class Banco {
         this.numeroDaConta=numeroDaConta;
         this.saldo=saldo;
     }
-    // essa função faz com que nao seja possivel adicionar o valor boolean na declaração da instancia (nao sei pq), mas funciona melhor ainda - eu mudei pra começar ja como false pq ele mandou inicializar nao sei bem se isso atrapalha muiot mas o codigo ta rolando legal
+    // essa função faz com que nao seja possivel adicionar o valor boolean na declaração da instancia (nao sei pq), mas funciona melhor ainda - eu mudei pra começar ja como false pq ele mandou inicializar nao sei bem se isso atrapalha muito mas o codigo ta rolando legal
     cadastrarCliente(){
         return this.cadastro = true
     }
