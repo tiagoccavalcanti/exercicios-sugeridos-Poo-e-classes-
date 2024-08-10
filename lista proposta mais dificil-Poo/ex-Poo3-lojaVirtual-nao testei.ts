@@ -1,6 +1,6 @@
 // Crie uma classe chamada “LojaVirtual” que represente uma plataforma de vendas online. Essa classe deve ter funcionalidades para cadastrar produtos, gerar carrinho de compras, aplicar descontos e calcular o valor total da compra.
 
-class Produto { 
+/* class Produto { 
     nome:string;
     preco:number;
     codigo:number;
@@ -45,4 +45,4 @@ class lojaVirtual {
     desconto(porcentagem:number){
         return this.valorTotal() * porcentagem;
     }
-}
+} */

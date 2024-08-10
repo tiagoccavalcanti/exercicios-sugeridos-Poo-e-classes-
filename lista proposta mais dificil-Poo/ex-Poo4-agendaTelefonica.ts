@@ -6,7 +6,7 @@ interface Contato {
 }
 
 class Agenda {
-    public contatos:Contato[]=[];
+    private contatos:Contato[]=[];
 
     constructor(contatos:Contato[]){
         this.contatos=contatos;
@@ -43,7 +43,7 @@ class Agenda {
 
 }
 
-const agenda = new Agenda([])
+/* const agenda = new Agenda([])
 agenda.adicionar({nome:"tiago", numero: 245462345345})
 agenda.adicionar({nome:"leticia", numero: 4871150431})
 agenda.adicionar({nome:"tiago", numero: 23455293485})
@@ -52,4 +52,4 @@ agenda.adicionar({nome:"tiago", numero: 23455293485})
 console.log(agenda.buscarContatos("tiago"))
 console.log(agenda.contatos)
 agenda.editar("tiago", {nome:"rafaelo", numero:324574295})
-console.log(agenda.contatos)
+console.log(agenda.contatos) */
