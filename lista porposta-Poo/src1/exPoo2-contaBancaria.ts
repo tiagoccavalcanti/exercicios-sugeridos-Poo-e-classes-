@@ -11,11 +11,11 @@ class ContaBancária {
         this.saldo=saldo;
     }
 
-    deposito(valor){
+    deposito(valor:number){
         return this.saldo += valor;
     }
 
-    saque(valor){
+    saque(valor:number){
         return this.saldo -= valor;
     }
 }

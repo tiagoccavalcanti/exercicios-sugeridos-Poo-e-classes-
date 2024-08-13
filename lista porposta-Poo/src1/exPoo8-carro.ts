@@ -10,7 +10,7 @@ class Carro {
         this.modelo=modelo;
         this.velocidadeAtual=velocidadeAtual;
     }
-acelerar(intensidade){
+acelerar(intensidade:string){
     if(intensidade == "muito"){
         return this.velocidadeAtual += 50
     }else if(intensidade == "medio"){
@@ -20,7 +20,7 @@ acelerar(intensidade){
     }
 }
 
-frear(intensidade){
+frear(intensidade:string){
     if(intensidade == "muito"){
          this.velocidadeAtual -= 50
     }else if(intensidade == "medio"){
